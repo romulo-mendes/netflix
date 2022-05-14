@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+.bg-img{
+  position: absolute;
+  background: 
+    radial-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/bg.jpg);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 745px;
+  border-bottom: solid #222 8px;
+}
+
+.main{
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 745px;
+}
+
+.main h1{
+  max-width: 800px;
+  font-size: 64px;
+  text-align: center;
+}
